@@ -2,7 +2,7 @@
   "name": "@omrprks/react-use-hotkey",
   "version": "1.0.1",
   "description": "Simple React hook for adding user interactions via hotkeys",
-  "author": "Omar Parkes",
+  "author": "Omar Parkes <omr.prks@gmail.com> (https://github.com/omrprks)",
   "license": "MIT",
   "repository": "github:omrprks/react-use-hotkey.git",
   "bugs": "https://github.com/omrprks/react-use-hotkey/issues",
@@ -28,7 +28,14 @@
     "build:storybook": "build-storybook"
   },
   "peerDependencies": {
-    "react": ">=16.9.0"
+    "@types/react": "^16.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
